@@ -128,8 +128,8 @@ with tab_leads:
     styled = (
         filtered[show_cols]
         .style
-        .applymap(highlight_status, subset=["status"])
-        .applymap(highlight_priority, subset=["priority"])
+        .map(highlight_status, subset=["status"])
+        .map(highlight_priority, subset=["priority"])
         .format({
             "budget"     : "${:,.0f}",
             "quote_total": lambda x: f"${x:,.0f}" if pd.notna(x) else "—",
