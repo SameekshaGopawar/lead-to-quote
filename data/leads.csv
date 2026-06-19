@@ -1,0 +1,6 @@
+customer_name,customer_email,company,industry,budget,requested_items,priority
+Riya Sharma,riya@technova.in,TechNova Pvt Ltd,Technology,50000,"Need a CRM dashboard with lead tracking and email automation",High
+Arjun Mehta,arjun@greenbuild.com,GreenBuild Co,Construction,150000,"Project management tool with site photo uploads and timeline view",Medium
+Sneha Kulkarni,sneha@medicare.org,MediCare Clinics,Healthcare,500000,"Patient appointment system with SMS reminders and doctor portal",High
+Vikram Desai,vikram@eduspark.in,EduSpark Academy,Education,40000,"Online course platform with video hosting and student progress tracking",Low
+Priya Nair,priya@retailzone.com,RetailZone,Retail,200000,"Inventory management with barcode scanning and sales reports",Medium
