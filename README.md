@@ -1,6 +1,16 @@
 # Lead-to-Quote Module
 
+🔗 **Live Demo:** https://lead-to-quote-i7ccr6yos93jkvbhthmwas.streamlit.app/
+
+🔗 **GitHub Repository:** https://github.com/SameekshaGopawar/lead-to-quote
+
 An autonomous lead-to-quote generation system built with Python and Streamlit. Upload a CSV of leads, and the system automatically categorises the project, recommends services from a catalog, estimates timeline and pricing, and generates a downloadable PDF quote — all offline, no API keys required.
+
+## Resume Highlights
+
+- Built a fully autonomous Lead-to-Quote web application using Python, Streamlit, and ReportLab that ingests CSV leads, categorises projects via a local rule-based AI engine, and generates professional PDF quotes with itemised pricing and timeline breakdowns — deployed live on Streamlit Community Cloud
+- Engineered a local quote generation engine with zero external API dependencies, implementing keyword-based project classification, 15-rule service matching against a dynamic catalog, automated discount logic, and professional summary generation using Python template rendering
+- Designed and deployed a multi-tab Streamlit interface with CSV validation, filterable lead tables, real-time quote preview, and in-browser PDF download — integrating pandas for data processing and ReportLab for document generation across a modular 6-file Python architecture
 
 ## Features
 
