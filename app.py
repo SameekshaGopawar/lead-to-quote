@@ -198,14 +198,15 @@ with tab_quote:
     ]
     st.markdown("""
     <style>
-    div[data-testid="stSelectbox"] > div:first-child {
-        max-width: 420px;
-        border: 1.5px solid #a78bfa;
-        border-radius: 8px;
+    div[data-baseweb="select"] > div:first-child {
+        border: 1.5px solid #a78bfa !important;
+        border-radius: 8px !important;
     }
     </style>
     """, unsafe_allow_html=True)
-    selected_label = st.selectbox("Select a lead", lead_options)
+    col_select, _ = st.columns([2, 3])
+    with col_select:
+        selected_label = st.selectbox("Select a lead", lead_options)
     selected_idx   = int(selected_label.split("  —  ")[0])
     st.session_state.selected_idx = selected_idx
     lead = get_lead_by_index(df, selected_idx)
