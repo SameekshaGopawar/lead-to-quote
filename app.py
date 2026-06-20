@@ -196,6 +196,15 @@ with tab_quote:
         f"{i}  —  {row['customer_name']}  ({row['company']})"
         for i, row in df.iterrows()
     ]
+    st.markdown("""
+    <style>
+    div[data-testid="stSelectbox"] > div:first-child {
+        max-width: 420px;
+        border: 1.5px solid #a78bfa;
+        border-radius: 8px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
     selected_label = st.selectbox("Select a lead", lead_options)
     selected_idx   = int(selected_label.split("  —  ")[0])
     st.session_state.selected_idx = selected_idx
