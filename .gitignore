@@ -40,3 +40,6 @@ lead_to_quote_workflow.json
 # Temp
 *.log
 *.tmp
+
+# ML model binaries (too large for HF Spaces, regenerate with train_model.py)
+*.pkl
