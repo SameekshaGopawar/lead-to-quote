@@ -36,7 +36,7 @@ DEFAULT_QUANTITIES = {
     "SEO and Digital Marketing": 3,
 }
 
-SIMILARITY_THRESHOLD = 0.25
+SIMILARITY_THRESHOLD = 0.15
 
 _st_model = None
 _zs_pipeline = None
