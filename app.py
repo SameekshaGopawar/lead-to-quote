@@ -6,7 +6,7 @@ from lead_processor import (
     load_leads, get_lead_by_index,
     get_validation_summary, mark_lead_done, export_leads,
 )
-from ai_quote_generator import generate_quote
+from ml_quote_engine import generate_quote
 from pdf_generator import generate_pdf
 from services_catalog import load_catalog, get_categories, get_services_by_category
 
@@ -243,7 +243,11 @@ with tab_quote:
 
         # OUTPUT 1: Project Category
         st.markdown("#### Project Category")
-        st.info(f"**{quote['project_category']}**")
+        confidence = quote.get("category_confidence", 0)
+        st.info(
+            f"**{quote['project_category']}** "
+            f"— ML confidence: {confidence:.0%}"
+        )
 
         q1, q2, q3, q4, q5 = st.columns(5)
         q1.metric("Lead Score",      f"{quote['lead_score']} / 10")
