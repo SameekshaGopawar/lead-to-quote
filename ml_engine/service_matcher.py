@@ -100,6 +100,7 @@ def _recommend_semantic(text: str, catalog_df) -> list[dict]:
         })
 
     results.sort(key=lambda x: x["confidence"], reverse=True)
+    results = results[:3]
 
     # Fallback if nothing matched
     if not results:
