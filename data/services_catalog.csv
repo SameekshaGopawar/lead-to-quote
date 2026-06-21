@@ -1,16 +1,16 @@
 service_name,category,description,unit_price,unit,min_qty,max_qty
-Managed IT Support,Subscription,Per user/month helpdesk and system maintenance,150,per user/month,1,500
-Cloud Hosting Basic,Subscription,Monthly VPS hosting with 4GB RAM and 80GB SSD,50,per month,1,100
-Cloud Hosting Pro,Subscription,Monthly VPS hosting with 16GB RAM and 500GB SSD,150,per month,1,50
-Network Firewall,Hardware,Enterprise-grade hardware firewall Fortinet/Cisco,850,one-time,1,10
-Cybersecurity Audit,Service,Full system vulnerability scan and detailed risk report,2500,one-time,1,1
-Custom Web App Dev,Hourly,Senior developer rate for custom software builds,120,per hour,10,2000
-Mobile App Dev,Hourly,iOS and Android app development,150,per hour,20,2000
-Office 365 Setup,License,Per user setup and migration to Microsoft 365,25,per user,1,500
-Emergency Support,Hourly,After-hours or weekend critical system recovery,400,per hour,1,100
-AI Integration Consult,Hourly,Analysis and automation of business workflows using AI,200,per hour,5,500
-Server Maintenance,Service,Monthly physical or virtual server health check and updates,300,per month,1,50
-Database Design,Service,Custom database architecture and setup,1200,one-time,1,5
-UI/UX Design,Hourly,User interface and experience design for web or mobile,80,per hour,10,500
-QA and Testing,Hourly,Manual and automated testing for software quality assurance,60,per hour,10,500
-SEO and Digital Marketing,Service,Monthly SEO optimization and digital marketing management,800,per month,1,12
+Managed IT Support,Subscription,Ongoing helpdesk support and system maintenance for managing IT infrastructure monitoring and troubleshooting for business users,150,per user/month,1,500
+Cloud Hosting Basic,Subscription,Monthly cloud VPS hosting with 4GB RAM and 80GB SSD for deploying web applications and online platforms,50,per month,1,100
+Cloud Hosting Pro,Subscription,High performance cloud hosting with 16GB RAM and 500GB SSD for large scale production applications and high traffic platforms,150,per month,1,50
+Network Firewall,Hardware,Enterprise grade hardware firewall for network security protecting business infrastructure from cyber threats and unauthorised access,850,one-time,1,10
+Cybersecurity Audit,Service,Full system vulnerability scan penetration testing and detailed security risk report for compliance and data protection,2500,one-time,1,1
+Custom Web App Dev,Hourly,Senior developer rate for building custom web applications portals dashboards and business management systems,120,per hour,10,2000
+Mobile App Dev,Hourly,iOS and Android mobile application development using Flutter or React Native with push notifications and offline support,150,per hour,20,2000
+Office 365 Setup,License,Per user setup and migration to Microsoft 365 including Outlook Teams SharePoint OneDrive and email configuration,25,per user,1,500
+Emergency Support,Hourly,After hours and weekend critical system recovery and emergency technical support for urgent business issues,400,per hour,1,100
+AI Integration Consult,Hourly,Analysis design and implementation of AI machine learning and automation solutions for business workflow optimisation,200,per hour,5,500
+Server Maintenance,Service,Monthly physical and virtual server health checks updates backup management and uptime monitoring,300,per month,1,50
+Database Design,Service,Custom database architecture design and setup including schema design SQL optimisation and data modelling,1200,one-time,1,5
+UI/UX Design,Hourly,User interface and experience design including wireframes prototypes and branding for web and mobile applications,80,per hour,10,500
+QA and Testing,Hourly,Manual and automated software testing quality assurance bug tracking and test report generation,60,per hour,10,500
+SEO and Digital Marketing,Service,Monthly SEO optimisation social media management Google Ads and digital marketing strategy for online growth,800,per month,1,12
