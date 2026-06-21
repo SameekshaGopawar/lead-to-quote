@@ -11,6 +11,8 @@ pinned: false
 
 # Lead-to-Quote Module
 
+🔗 **Live Demo:** https://huggingface.co/spaces/SameekshaGopawar10/lead-to-quote
+
 🔗 **GitHub Repository:** https://github.com/SameekshaGopawar/lead-to-quote
 
 An ML-powered lead-to-quote generation system built with Python and Streamlit. Upload a CSV of leads, and the system uses Sentence Transformers (all-MiniLM-L6-v2) to classify the project category, recommend services from a catalog via semantic similarity, estimate timeline and pricing, and generate a downloadable PDF quote.
